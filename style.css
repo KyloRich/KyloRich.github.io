@@ -1,11 +1,6 @@
 body {
 	font: 16px Helvetica, Sans-Serif;
-	color: white
 	background: url(tree.jpeg);
-}
-
-#pic {
-	float: right;
 }
 
 #button {
@@ -26,6 +21,7 @@ body {
 	margin: 0 0 16px 0;
 	padding: 0 0 16px 0;
 	font-size: 42px;
+	font-color: white
 	font-weight: bold;
 	letter-spacing: -2px;
 	border-bottom: 1px solid #999;

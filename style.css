@@ -21,7 +21,6 @@ body {
 	margin: 0 0 16px 0;
 	padding: 0 0 16px 0;
 	font-size: 42px;
-	font-color: white
 	font-weight: bold;
 	letter-spacing: -2px;
 	border-bottom: 1px solid #999;
@@ -33,6 +32,7 @@ body {
 
 	font-style: italic;
 	font-size: 20px;
+	font-color: white
 }
 
 #content-professionalheader {

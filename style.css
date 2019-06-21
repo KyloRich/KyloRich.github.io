@@ -1,10 +1,8 @@
-body {
+body {	
+	animation-direction: alternate;
 	font: 17px Georgia, Sans-Serif;
 	color: white;
 	background: url(sunset.jpeg);
-}
-div {
-  animation-direction: alternate;
 }
 
 #button {

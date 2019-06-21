@@ -3,6 +3,9 @@ body {
 	color: white;
 	background: url(sunset.jpeg);
 }
+div {
+  animation-direction: alternate;
+}
 
 #button {
 	margin-left: 40%;

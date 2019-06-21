@@ -1,5 +1,4 @@
 body {	
-	animation-direction: alternate;
 	font: 17px Georgia, Sans-Serif;
 	color: white;
 	background: url(sunset.jpeg);
@@ -22,6 +21,7 @@ body {
 #content-contact {
 	margin: 0 0 16px 0;
 	padding: 0 0 16px 0;
+	animation-direction: alternate;
 	font-size: 42px;
 	font-weight: bold;
 	letter-spacing: -2px;

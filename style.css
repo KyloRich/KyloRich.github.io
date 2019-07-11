@@ -1,5 +1,5 @@
 body {
-	font: 14px Georgia, Sans-Serif;
+	font: 15px Georgia, Sans-Serif;
 	width: 100wh;
 	height: 90vh;
 	color: #fff;
@@ -84,7 +84,7 @@ h6 {
 	padding: 0 0 32px 0;
 
 	font-style: italic;
-	font-size: 18px;
+	font-size: 20px;
 }
 
 #content-professionalheader {

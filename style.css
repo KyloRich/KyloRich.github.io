@@ -109,3 +109,13 @@ h5{
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
+
+footer {
+	clear: both;
+	top-border: think solid #000;
+	text-align: center;
+}
+footer span{
+	align:right;
+	width: 350px;
+}

@@ -1,13 +1,15 @@
 body {
 	font: 15px Georgia, Sans-Serif;
+	color: white;
 	margin:0;
 	padding:0;
 	overflow:hidden;
 	background-color:black;
+		width: 100wh;
+	height: 90vh;
 }
 	section{
-	height:100%;
-	width:100%;
+
  	position:absolute ;  background:radial-gradient(#333,#000);
 }
 

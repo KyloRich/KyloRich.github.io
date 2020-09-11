@@ -1,50 +1,101 @@
 body {
-	font: 15px Georgia, Sans-Serif;
-	width: 100wh;
-	height: 90vh;
-	color: #fff;
-	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
-	background-size: 400% 400%;
-	-webkit-animation: Gradient 15s ease infinite;
-	-moz-animation: Gradient 15s ease infinite;
-	animation: Gradient 15s ease infinite;
-}
+	color: white;
+	margin:0;
+	padding:0;
+    background-color:black;
+    background:radial-gradient(#333,#000);
+	}
 
-@-webkit-keyframes Gradient {
-	0% {
-		background-position: 0% 50%
+	.leaf{
+		position:absolute ;
+		width:100%;
+		height:100%;
+		top:0;
+		left:0;
 	}
-	50% {
-		background-position: 100% 50%
+	.leaf div{
+	position:absolute ;
+	display:block ;
 	}
-	100% {
-		background-position: 0% 50%
+	.leaf div:nth-child(1){
+		left:20%; 
+		animation:fall 15s linear infinite ;
+		animation-delay:-2s;
+	
 	}
-}
+	.leaf div:nth-child(2){
+		left:70%; 
+		animation:fall 15s linear infinite ;
+		animation-delay:-4s;
+	}
+	.leaf div:nth-child(3){
+		left:10%; 
+		animation:fall 20s linear infinite ;
+		animation-delay:-7s;
+		
+	}
+	.leaf div:nth-child(4){
+		left:50%; 
+	   animation:fall 18s linear infinite ; 
+	   animation-delay:-5s;
+	}
+	.leaf div:nth-child(5){
+		left:85%; 
+		animation:fall 14s linear infinite ;
+		animation-delay:-5s;
+	}
+	.leaf div:nth-child(6){
+		left:15%; 
+		animation:fall 16s linear infinite ;
+		animation-delay:-10s;
+	}
+	.leaf div:nth-child(7){
+		left:90%; 
+		animation:fall 15s linear infinite ;
+		animation-delay:-4s;
+	}
+	
+	@keyframes fall{
+		0%{
+			opacity:1;
+			top:-10%;
+			transform:translateX (20px) rotate(0deg);
+		}
+		20%{
+			opacity:0.8;
+			transform:translateX (-20px) rotate(45deg);
+		}
+		40%{
+	
+			transform:translateX (-20px) rotate(90deg);
+		}
+		60%{
+			
+		   transform:translateX (-20px) rotate(135deg); 
+		}
+		80%{
+		
+			transform:translateX (-20px) rotate(180deg);
+		}
+		100%{
+			
+			top:110%;
+			transform:translateX (-20px) rotate(225deg);
+		}
+		}
+	.leaf1{
+		transform: rotateX(180deg);
+	}
 
-@-moz-keyframes Gradient {
-	0% {
-		background-position: 0% 50%
+	#content-contact{
+	
+		font-family: 'Courgette', cursive;
+		font-size:5em;
+		text-align:left;
+		transform:translate ;
+		color:#fff;
+		transform:translateY (-50%);
 	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-}
-
-@keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-}
 
 h1 {
 	font-family: 'Open Sans';

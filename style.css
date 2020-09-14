@@ -7,13 +7,10 @@ body {
 	}
 
 	#content-contact{
-	
-		font-family: 'Courgette', cursive;
-		font-size:5em;
+		font-family: 'Open Sans';
+		font-size:6em;
 		text-align:left;
-		transform:translate ;
 		color:#fff;
-		transform:translateY (-50%);
 	}
 
 h1 {
@@ -26,10 +23,22 @@ h1 {
 	left: 0;
 }
 
-#container {
-	width: 800px;
-	margin: 40px auto 60px;
-}
+@media (min-width: 36em) {
+	#container{
+	  /* Overrides the above styles on screens larger than 36em */
+	  	  width: 400px;
+	  margin: 20px auto 30px;
+	}
+  }
+
+  @media (min-width: 48em) {
+	#container {
+	  /* Overrides the above styles on screens larger than 48em */
+	  width: 800px;
+	  margin: 40px auto 60px;
+
+	}
+  }
 
 #content-contact {
 	margin: 0 0 16px 0;
@@ -63,6 +72,8 @@ footer {
 	text-align: center;
 	font-weight: bold; 
 	border-style: solid;
+	width: 800px;
+	margin: 40px auto 60px;
 }
 
 footer span{

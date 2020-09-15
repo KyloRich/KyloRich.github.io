@@ -3,7 +3,9 @@ body {
 	margin:0;
 	padding:0;
     background-color:black;
-    /* background:radial-gradient(#333,#000); */
+	/* background:radial-gradient(#333,#000); */
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(145,145,150,1) 35%, rgba(0,212,255,1) 100%);
 	}
 
 @media (min-width: 24em) {
@@ -41,21 +43,23 @@ body {
 	text-align:left;
 }
 
-.content-professionalheader, .Skills, .Programming-Projects {
+.Education, .Experience, .Skills, .Programming-Projects {
 	font-size: 30px;
 	border-bottom: 3px solid #999;
 	text-align:left;
 }
+
+ 
  
 .date {
 	float: right;
 }
 
-h3, h5, h4 {
+h3, h5, h4, .College {
 	border-bottom: 1px solid #999;
 }
 
-h4, .Education {
+h4, .College {
 	margin-top: 0px;
 	margin-bottom: 0px;
 }

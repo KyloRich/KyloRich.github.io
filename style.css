@@ -3,7 +3,7 @@ body {
 	margin:0;
 	padding:0;
     background-color:black;
-    background:radial-gradient(#333,#000);
+    /* background:radial-gradient(#333,#000); */
 	}
 
 @media (min-width: 24em) {
@@ -31,8 +31,7 @@ body {
 	}
   }
 
-  #content-contact {
-	color:#fff;
+  #Name {
 	font-family: 'Open Sans';
 	font-size: 50px; 
 	margin: 0 0 16px 0;
@@ -42,21 +41,21 @@ body {
 	text-align:left;
 }
 
-.content-professionalheader {
+.content-professionalheader, .Skills, .Programming-Projects {
 	font-size: 30px;
 	border-bottom: 3px solid #999;
-	
+	text-align:left;
 }
-
+ 
 .date {
 	float: right;
 }
 
-h3 {
+h3, h5, h4 {
 	border-bottom: 1px solid #999;
 }
 
-h4{
+h4, .Education {
 	margin-top: 0px;
 	margin-bottom: 0px;
 }

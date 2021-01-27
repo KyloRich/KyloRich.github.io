@@ -8,6 +8,55 @@ body {
 	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(145,145,150,1) 35%, rgba(0,212,255,1) 100%);
 	}
 
+  .Section-Title {
+    font-family: 'Open Sans';
+    text-decoration: underline;
+    font-size: 200px; 
+     
+}
+
+.Sub-Title {
+    font-family: 'Open Sans';
+    text-decoration: underline;
+    font-size: 150px; 
+     
+}
+
+  #Name {
+	font-family: 'Open Sans';
+	font-size: 50px; 
+	margin: 0 0 16px 0;
+	padding: 0 0 16px 0;
+	letter-spacing: -2px;
+	border-bottom: 1px solid #999;
+	text-align:left;
+}
+
+h3, h4, h5, .College, .Section-Title {
+	margin-top: 0px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #999;
+}
+
+.date {
+	float: right;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	font-weight: bold; 
+	border-style: solid;
+	width: 800px;
+	margin: 40px auto 60px;
+}
+
+footer span{
+	align:center;
+	width: 350px;
+}
+
+/* Responsive Sizing based on pixel size */
 @media (min-width: 24em) {
 	#container{
 	  /* Overrides the above styles on screens larger than 36em */
@@ -32,49 +81,3 @@ body {
 
 	}
   }
-
-  #Name {
-	font-family: 'Open Sans';
-	font-size: 50px; 
-	margin: 0 0 16px 0;
-	padding: 0 0 16px 0;
-	letter-spacing: -2px;
-	border-bottom: 1px solid #999;
-	text-align:left;
-}
-
-.Education, .Experience, .Skills, .Programming-Projects {
-	font-size: 30px;
-	border-bottom: 3px solid #999;
-	text-align:left;
-}
-
- 
- 
-.date {
-	float: right;
-}
-
-h3, h5, h4, .College {
-	border-bottom: 1px solid #999;
-}
-
-h4, .College {
-	margin-top: 0px;
-	margin-bottom: 0px;
-}
-
-footer {
-	clear: both;
-	top-border: think solid #000;
-	text-align: center;
-	font-weight: bold; 
-	border-style: solid;
-	width: 800px;
-	margin: 40px auto 60px;
-}
-
-footer span{
-	align:center;
-	width: 350px;
-}

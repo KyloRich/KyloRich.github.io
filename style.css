@@ -8,7 +8,7 @@ body {
 	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(145,145,150,1) 35%, rgba(0,212,255,1) 100%);
 	}
 
-  .Section-Title {
+.Section-Title {
     font-family: 'Open Sans';
     text-decoration: underline;
     font-size: 200px; 
@@ -24,7 +24,7 @@ body {
 
   #Name {
 	font-family: 'Open Sans';
-	font-size: 50px; 
+	font-size: 75px; 
 	margin: 0 0 16px 0;
 	padding: 0 0 16px 0;
 	letter-spacing: -2px;
@@ -36,6 +36,11 @@ h3, h4, h5, .College, .Section-Title {
 	margin-top: 0px;
     margin-bottom: 0px;
     border-bottom: 1px solid #999;
+}
+
+h5, .date{
+	font-family: 'Open Sans';
+	font-variant: small-caps;
 }
 
 .date {
@@ -58,7 +63,7 @@ footer span{
 
 /* Responsive Sizing based on pixel size */
 @media (min-width: 24em) {
-	#container{
+	#container {
 	  /* Overrides the above styles on screens larger than 36em */
 	  width: 350px;
 	  margin: 18px auto 28px;
@@ -66,7 +71,7 @@ footer span{
   }
 
 @media (min-width: 36em) {
-	#container{
+	#container {
 	  /* Overrides the above styles on screens larger than 36em */
 	  width: 400px;
 	  margin: 20px auto 30px;

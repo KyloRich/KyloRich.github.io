@@ -1,5 +1,4 @@
-Web version of my resume 
+<h1> Standard HTML/CSS version of my resume with a little touch of JavaScript and Bootstrap sprinkled in for fun. </h1>
 
-HTML/CSS
 
-# Kyle Richardson Resume - https://kylorich.github.io
+# Link to Kyle Richardson Resume - https://kylorich.github.io

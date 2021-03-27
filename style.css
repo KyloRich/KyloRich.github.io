@@ -8,6 +8,10 @@ body {
 	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(145,145,150,1) 35%, rgba(0,212,255,1) 100%);
 	}
 
+	.git-btn {
+		float: right; 
+	}
+
 .Section-Title {
     font-family: 'Open Sans';
     text-decoration: underline;
@@ -61,7 +65,7 @@ footer {
 }
 
 footer span{
-	align:center;
+	align-items:center;
 	width: 350px;
 }
 

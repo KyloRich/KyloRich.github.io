@@ -33,7 +33,7 @@ body {
 h3, h4, h5, .College, .Section-Title {
 	margin-top: 0px;
     margin-bottom: 0px;
-    border-bottom: 1px solid #999;
+    border-bottom: 1px solid rgb(17, 12, 12);
 }
 
 h5, .date{

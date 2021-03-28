@@ -26,18 +26,8 @@ body {
 .Sub-Title {
     font-family: 'Open Sans';
     text-decoration: underline;
-    font-size: 150px; 
+ 
      
-}
-
-  #Name {
-	font-family: 'Open Sans';
-	font-size: 60px; 
-	margin: 0 0 16px 0;
-	padding: 0 0 16px 0;
-	letter-spacing: -2px;
-	border-bottom: 1px solid #999;
-	text-align:left;
 }
 
 h3, h4, h5, .College, .Section-Title {
@@ -71,7 +61,7 @@ footer span{
 
 /* Responsive Sizing based on pixel size */
 @media (min-width: 24em) {
-	#container {
+	#container, footer {
 	  /* Overrides the above styles on screens larger than 36em */
 	  width: 350px;
 	  margin: 18px auto 28px;
@@ -79,18 +69,128 @@ footer span{
   }
 
 @media (min-width: 36em) {
-	#container {
+	#container, footer  {
 	  /* Overrides the above styles on screens larger than 36em */
-	  width: 400px;
+	  width: 600px;
 	  margin: 20px auto 30px;
 	}
   }
 
   @media (min-width: 48em) {
-	#container {
+	#container, footer  {
 	  /* Overrides the above styles on screens larger than 48em */
-	  width: 800px;
+	  width: 1250px;
 	  margin: 40px auto 60px;
 
 	}
   }
+
+
+  /* NAME HOVER STYLING */
+@import url(https://fonts.googleapis.com/css?family=Lato:900);
+*, *:before, *:after{
+  box-sizing:border-box;
+}
+
+
+div.Name{
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+
+  margin: 0 0 16px 0;
+  border-bottom: 4px solid rgb(0, 0, 0);
+  text-align:center;
+}
+
+.letter{
+  display: inline-block;
+  font-weight: 900;
+  margin: 0.2em;
+  position: relative;
+  color: #05141a;
+  transform-style: preserve-3d;
+  perspective: 400;
+  z-index: 1;
+}
+
+.letter:before, .letter:after{
+  position:absolute;
+  content: attr(data-letter);
+  transform-origin: top left;
+  top:0;
+  left:0;
+}
+
+.letter, .letter:before, .letter:after{
+  transition: all 0.3s ease-in-out;
+}
+
+.letter:before{
+  color: #fff;
+  text-shadow: 
+    -1px 0px 1px rgba(255,255,255,.8),
+    1px 0px 1px rgba(0,0,0,.8);
+  z-index: 3;
+  transform:
+    rotateX(0deg)
+    rotateY(-15deg)
+    rotateZ(0deg);
+}
+
+.letter:after{
+  color: rgba(0,0,0,.11);
+  z-index:2;
+  transform:
+    scale(1.08,1)
+    rotateX(0deg)
+    rotateY(0deg)
+    rotateZ(0deg)
+    skew(0deg,1deg);
+}
+
+.letter:hover:before{
+  color: #fafafa;
+  transform:
+    rotateX(0deg)
+    rotateY(-40deg)
+    rotateZ(0deg);
+}
+
+.letter:hover:after{
+  transform:
+    scale(1.08,1)
+    rotateX(0deg)
+    rotateY(40deg)
+    rotateZ(0deg)
+    skew(0deg,22deg);
+}
+
+/* Name Responsive Resizing based on Screen Size */
+@media (max-width: 576px) { 
+	.Name {
+	 font-size: 18px;;
+   }
+  }
+  
+  /* // Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+	.Name {
+   font-size: 25px;; 
+	}
+  }
+  
+  /* // Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {  
+	.Name {
+   font-size: 40px;; 
+   }
+  }
+  
+  /* // Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {  
+	.Name {
+   font-size: 60px;;
+   }
+  }
+  

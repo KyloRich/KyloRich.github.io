@@ -13,7 +13,7 @@ body {
 	}
 
 .Section-Title {
-    font-family: 'Open Sans';
+  font-family: 'Lato', sans-serif;
     font-size: 100px;    
 }
 
@@ -22,19 +22,19 @@ body {
   text-decoration: underline;
 }
 
-.Sub-Title {
-  font-family: 'Open Sans';
-}
-
 h3, h4, h5, .College, .Section-Title {
 	margin-top: 0px;
-    margin-bottom: 0px;
-    border-bottom: 1px solid rgb(17, 12, 12);
+  margin-bottom: 0px;
+  border-bottom: 1px solid rgb(17, 12, 12);
 }
 
-h5, .date{
+h5, .date, .College{
 	font-family: 'Open Sans';
 	font-variant: small-caps;
+}
+
+.College {
+  font-weight: bold;
 }
 
 .date {
@@ -91,7 +91,7 @@ footer span{
   /* // Medium devices (tablets, 768px and up) */
   @media (min-width: 36em) {
 	.Name {
-   font-size: 30px;; 
+   font-size: 28px;; 
 	}
   }
   
@@ -116,7 +116,7 @@ footer span{
   width: 90%;
   margin: 0 auto;
   text-align: center;
-
+  font-family: 'Lato', sans-serif;
   margin: 0 0 16px 0;
   border-bottom: 4px solid rgb(0, 0, 0);
   text-align:center;

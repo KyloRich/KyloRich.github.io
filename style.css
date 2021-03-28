@@ -14,20 +14,16 @@ body {
 
 .Section-Title {
     font-family: 'Open Sans';
-    text-decoration: underline;
-    font-size: 100px; 
-     
+    font-size: 100px;    
 }
 
 .email-btn, .git-btn {
 	text-align: center;
+  text-decoration: underline;
 }
 
 .Sub-Title {
-    font-family: 'Open Sans';
-    text-decoration: underline;
- 
-     
+  font-family: 'Open Sans';
 }
 
 h3, h4, h5, .College, .Section-Title {
@@ -84,6 +80,29 @@ footer span{
 
 	}
   }
+  
+/* Name Responsive Resizing based on Screen Size */
+@media (max-width: 24em) { 
+	.Name {
+	 font-size: 18px;;
+   }
+  }
+  
+  /* // Medium devices (tablets, 768px and up) */
+  @media (min-width: 36em) {
+	.Name {
+   font-size: 30px;; 
+	}
+  }
+  
+  /* // Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 48em) {  
+	.Name {
+   font-size: 60px;;
+   }
+  }
+  
+
 
 
   /* NAME HOVER STYLING */
@@ -165,32 +184,3 @@ footer span{
     rotateZ(0deg)
     skew(0deg,22deg);
 }
-
-/* Name Responsive Resizing based on Screen Size */
-@media (max-width: 576px) { 
-	.Name {
-	 font-size: 18px;;
-   }
-  }
-  
-  /* // Medium devices (tablets, 768px and up) */
-  @media (min-width: 768px) {
-	.Name {
-   font-size: 25px;; 
-	}
-  }
-  
-  /* // Large devices (desktops, 992px and up) */
-  @media (min-width: 992px) {  
-	.Name {
-   font-size: 40px;; 
-   }
-  }
-  
-  /* // Extra large devices (large desktops, 1200px and up) */
-  @media (min-width: 1200px) {  
-	.Name {
-   font-size: 60px;;
-   }
-  }
-  

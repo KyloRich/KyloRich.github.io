@@ -37,7 +37,6 @@ h5, .date, .College{
 .date {
 	float: right;
 }
-
 /* END MAIN CONTENT */
 
 /* START CONTAINER RESPONSIVE STYLING */
@@ -51,7 +50,7 @@ h5, .date, .College{
 }
 
 @media (min-width: 36em) {
-	#container, footer  {
+	#container, footer    {
 	  /* Overrides the above styles on screens larger than 36em */
 	  width: 600px;
 	  margin: 20px auto 30px;
@@ -59,7 +58,7 @@ h5, .date, .College{
 }
 
   @media (min-width: 48em) {
-	#container, footer  {
+	#container, footer   {
 	  /* Overrides the above styles on screens larger than 48em */
 	  width: 1250px;
 	  margin: 40px auto 60px;
@@ -177,8 +176,6 @@ footer {
 	text-align: center;
 	font-weight: bold; 
 	border-style: solid;
-	width: 800px;
-	margin: 40px auto 60px;
 }
 
 footer span{

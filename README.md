@@ -3,4 +3,4 @@
 
 <h1> Link to Kyle Richardson Resume - https://kylorich.github.io</h1>
 
-<a href="default.asp"><img src="Resume2.PNG" alt="ResumePic"></a>
+<a href="default.asp"><img src="Snip.PNG" alt="ResumePic"></a>

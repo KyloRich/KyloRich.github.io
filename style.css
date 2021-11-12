@@ -11,28 +11,29 @@ body {
 		float: right; 
 	}
 
-h3, h4, h5, .College {
+h3, h4, h5 {
 	margin-top: 0px;
   margin-left: 3px;
   margin-right: 3px;
   margin-bottom: 0px;
   border-bottom: 1px solid rgb(17, 12, 12);
   font-variant: small-caps;
-  
 }
-
-h5, .date, .College{
-	font-family: 'Open Sans';
-	font-variant: small-caps;
-}
-
-.College {
-  font-weight: bold;
+.Professional-Experience {
+  margin-top: 0px;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-bottom: 0px;
+  border-bottom: 1px solid rgb(17, 12, 12);
+  font-family: 'Brush Script MT';
+  font-size: 20px;
 }
 
 .date {
 	float: right;
   margin-right: 3px;
+  font-family: 'Open Sans';
+	font-variant: small-caps
 }
 /* END MAIN CONTENT */
 

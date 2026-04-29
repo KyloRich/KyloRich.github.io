@@ -4,4 +4,4 @@
 <h2>Kyle REDACTED Web Resume:  https://kylorich.github.io  </h2>
 <h3>HTML/CSS version of my Resume with a little touch of JavaScript and Bootstrap.</h3>
 <br>
-<a href="default.asp"><img src="snip.PNG" alt="ResumePic"></a>
+<a href="default.asp"><img src="snip.png" alt="ResumePic"></a>
